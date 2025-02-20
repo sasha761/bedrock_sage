@@ -1,0 +1,43 @@
+@import './normalize.scss';
+@import './grid.scss';
+@import './fonts.scss';
+@import './menu.scss';
+@import './header.scss';
+
+
+
+.u-container {
+  max-width: 1230px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.u-btn {
+  border-radius: 3px;
+  padding: 16px 24px;
+
+  &.is-purple {
+    background-color: #BA2C73;
+  }
+}
+
+.c-logo {
+  max-width: 120px;
+}
+
+.c-input {
+  padding: 12px;
+  background-color: white;
+  border-radius: 3px;
+  font-size: 15px;
+  line-height: 18px;
+  font-family: Montserrat;
+
+  &::placeholder {
+    color: #F0F1F2;
+  }
+}
+
+
+
